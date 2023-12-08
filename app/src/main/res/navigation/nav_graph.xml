@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gamzecoskun.cryptoapp.ui.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.gamzecoskun.cryptoapp.ui.MarketFragment"
+        android:label="MarketFragment" />
+    <fragment
+        android:id="@+id/watchListFragment"
+        android:name="com.gamzecoskun.cryptoapp.ui.WatchListFragment"
+        android:label="WatchListFragment" />
+</navigation>
